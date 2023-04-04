@@ -1,70 +1,67 @@
-<div align='center'>
-  <img width="180px" alt="mysql logo" src="https://user-images.githubusercontent.com/100851855/229682043-40aa84db-1a37-4b47-90c1-b2e293034ad5.png" />
+<h4 align="center">
+  <img width="180px" alt="trybe wallet logo" src="https://user-images.githubusercontent.com/100851855/229682043-40aa84db-1a37-4b47-90c1-b2e293034ad5.png" />
+  <br /><br />
+</h4>
 
-  <h1>Trybers And Dragons</h1>
-  <p>
-    Uma simples aplicação na qual é aplicado os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
-  </p>
-</div>
-
-<br /><hr /><br />
-
-## 🖥️ Tecnologias
-Este projeto foi desenvolvido usando as seguintes tecnologias:
-
--  **TypeScript** para tipagem de código;
--  **Docker** para conteinerização de toda a aplicação;
--  **ESLint** para padronização de código;
--  **Git** para versionamento de código;
--  **Visual Studio Code** para edição de código.
-
-## ℹ️ Como usar
-Para testar este projeto, precisará das seguintes ferramentas instaladas:
-
-- Git
-- Docker
-- Docker Compose
-
-<br/>
-
-```bash
-# Clone o repositório
-git clone git@github.com:isaacost/Trybers-and-Dragons.git
-
-# Entre no diretório
-cd trybers-and-dragons
-
-# Inicie o Docker Compose
-docker-compose up -d
-
-# Entre no container
-docker exec -it trybers_and_dragons bash
-
-# Instale as dependências
-npm install
-
-# Inicie o servidor
-npm run dev
+<hr />
 
 
-```
+# Projeto Tryber and Dragons
 
-<br/><br/>
+Projeto realizado durante módulo de Back-end do curso de desenvolvimento web da Trybe.
 
-<p align="center">
-  Criado e desenvolvido por <b>Isabela Costa</b>
-  <br/><br/>
+<details>
+  <summary><strong>O que foi feito</strong></summary></br>
+
+  Neste projeto apliquei os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
   
-  <a href="https://isaacost.github.io/">
-    <img alt="portfolio" height="30px" src="https://i.imgur.com/7lbNPnj.png" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="https://www.linkedin.com/in/isa-hcosta/">
-    <img alt="linkedIn" height="30px" src="https://i.imgur.com/TQRXxhT.png" />
-  </a>
-  &nbsp;&nbsp;
-  <a href="mailto:isa-hcosta@hotmail.com?subject=website contact">
-    <img alt="email" height="30px" src="https://i.imgur.com/wu7e3PJ.png" />
-  </a>
-</p>
+  A aplicação foi desenvolvida com:
 
+- `Node.js`
+- `TypeScript`
+- `POO`
+- `docker`
+- `docker-compose`
+- `S.O.L.I.D`
+
+</details>
+<details>
+  <summary><strong>Como rodar o projeto</strong></summary></br>
+
+  **Com Docker:**
+
+  **:warning: Antes de começar, seu docker-compose precisa estar na versão 1.29 ou superior. [Veja aqui](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04-pt) ou [na documentação](https://docs.docker.com/compose/install/) como instalá-lo. No primeiro artigo, você pode substituir onde está com `1.26.0` por `1.29.2`.**
+
+- [ ] `docker-compose up -d`
+- [ ] `docker exec -it trybers_and_dragons bash`
+- [ ] `npm install`
+
+**Localmente:**
+
+**Necessita ter um banco de dados(MySql) instalado localmente**
+
+- [ ] `npm install`
+
+</details>
+
+<details>
+  <summary><strong>:memo: Tecnologias utilizadas</strong></summary><br />
+  
+- `Node.js`
+- `TypeScript`
+- `POO`
+- `docker`
+- `docker-compose`
+- `S.O.L.I.D`
+
+</details>
+<details>
+  <summary><strong>:memo: Habilidades</strong></summary><br />
+
+- O conhecimento dos pilares da Programação Orientada a Objetos: Herança, Abstração, Encapsulamento e Polimorfismo.
+- A habilidade de criar e utilizar Interface;
+- A habilidade de utilizar Composição;
+- Implementar, em TypeScript, Classes, Instâncias, Atributos, Métodos e Objetos;
+- O conhecimento e aplicação dos princípios SOLID.
+
+</details>
