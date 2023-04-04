@@ -1,13 +1,47 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<div align='center'>
+  <img width="180px" alt="mysql logo" src="https://user-images.githubusercontent.com/100851855/229682043-40aa84db-1a37-4b47-90c1-b2e293034ad5.png" />
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+  <h1>Trybers And Dragons</h1>
+  <p>
+    Uma simples aplicação na qual é aplicado os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
+  </p>
+</div>
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+<br /><hr /><br />
+
+## 🖥️ Tecnologias
+Este projeto foi desenvolvido usando as seguintes tecnologias:
+
+-  **TypeScript** para tipagem de código;
+-  **Docker** para conteinerização de toda a aplicação;
+-  **ESLint** para padronização de código;
+-  **Git** para versionamento de código;
+-  **Visual Studio Code** para edição de código.
+
+## ℹ️ Como usar
+Para testar este projeto, precisará das seguintes ferramentas instaladas:
+
+- Git
+- Docker
+- Docker Compose
+
+<br/>
+
+```bash
+# Clone o repositório
+git clone git@github.com:isaacost/Trybers-and-Dragons.git
+
+# Entre no diretório
+cd trybers-and-dragons
+
+# Inicie o Docker Compose
+docker-compose up -d
+
+# Entre no container
+docker exec -it trybers_and_dragons bash
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor
+npm run dev
